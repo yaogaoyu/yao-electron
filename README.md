@@ -1,17 +1,23 @@
---- 目录说明
-> include 第三方JS文件存放目录
+# yao-electron
+
+-
+
+使用本工具首先需要安装nodejs环境和npm环境。
+
+使用 Typescript + React 作为开发库。
+
+使用 Gulp 进行项目构建。
 
 
-> lib JS源码文件存放目录
+### 安装依赖包
+`npm i`
 
 
-> libexec 加载JS文件的HTML文件
+### 执行编译
+`gulp bundle`
 
 
-> share 样式源码文件存放目录
+### 运行
+`bin/run`
 
 
-> typings typescript tsd文件存放目录
-
-
-> var 应用打包存放目录
