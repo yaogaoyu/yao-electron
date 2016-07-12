@@ -1,0 +1,7 @@
+*.*
+
+!.gitignore
+
+!*.ts
+!*.tsx
+!*.js

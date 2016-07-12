@@ -1,0 +1,53 @@
+{
+  "name": "yao-electron",
+  "version": "0.1.0",
+  "name": "Application",
+  "description": "HTML开发桌面端工具",
+  "keywords": [
+    "yao",
+    "react",
+    "typescript",
+    "electron",
+    "HTML开发桌面端应用"
+  ],
+  "homepage": "",
+  "license": "GLP-3.0",
+  "author": "姚尧 <yaogaoyu@qq.com>",
+  "main": "libexec/application.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "private": true,
+  "dependencies": {
+    "electron-prebuilt": "1.2.6"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "event-stream": "^3.3.1",
+    "del": "^2.2.0",
+    "scss": "^0.2.4",
+    "typescript": "^1.6.2",
+    "tslint": "^3.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^4.3.2",
+    "gulp-typescript": "^2.12.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-insert": "^0.5.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-min-map": "^0.1.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-xml-editor": "^2.2.1",
+    "gulp-asar": "git://github.com/bwin/gulp-asar.git",
+    "gulp-electron": "0.1.3",
+    "electron-prebuilt": "^1.2.6"
+  }
+}

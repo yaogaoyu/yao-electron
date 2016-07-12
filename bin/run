@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+/**
+ * 运行electron脚本。
+ * command line usage: run
+ *
+ * @author    姚尧 <yaogaoyu@gmail.com>
+ * @copyright © 2016 yaogd.com
+ * @license   GPL-3.0
+ */
+
+var proc = require('child_process');
+
+(function() {
+    proc.execFile(process.argv[0] || {}, [
+        __dirname + '/../node_modules/electron-prebuilt/cli.js',
+        __dirname + '/../var/build/.bundle'
+    ], {
+        cwd: __dirname + '/..'
+    });
+}());

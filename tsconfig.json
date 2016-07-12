@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "newLine": "LF",
+        "target": "es3",
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "outFile": "var/build/js/application.js",
+        "sourceMap": false,
+        "jsx": "react"
+    },
+    "files": [
+        "lib/Application.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,8 @@
+*
+
+!.gitignore
+
+!html/
+!image/
+!lib/
+!scss/

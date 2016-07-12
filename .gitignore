@@ -1,0 +1,16 @@
+/*
+
+!bin/
+!include/
+!lib/
+!libexec/
+!share/
+!var/
+
+!.gitignore
+!Gulpfile.js
+!package.json
+!README.md
+!tsconfig.json
+!tsd.json
+!tslint.json
