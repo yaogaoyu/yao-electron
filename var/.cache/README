@@ -1,0 +1,4 @@
+本打包工具使用electron v0.37.4版本进行打包，官方镜像目前无法提供下载，请手动下载后存放到本目录下的v0.37.4目录
+OSX: https://github.com/electron/electron/releases/download/v0.37.4/electron-v0.37.4-darwin-x64.zip
+Win-32: https://github.com/electron/electron/releases/download/v0.37.4/electron-v0.37.4-win32-ia32.zip
+Win-64: https://github.com/electron/electron/releases/download/v0.37.4/electron-v0.37.4-win32-x64.zip

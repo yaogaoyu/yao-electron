@@ -23,7 +23,7 @@ $.open = function(id, options) {
             fullscreen: false,
             show: false
         },
-        file = 'file://' + __dirname + '/../html/index.html',
+        file = 'file://' + __dirname + '/../index.html',
         ii,
         self = this;
     id = '$' + id;
