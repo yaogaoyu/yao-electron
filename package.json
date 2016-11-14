@@ -46,7 +46,7 @@
         "gulp-min-map": "^0.1.0",
         "gulp-json-editor": "^2.2.1",
         "gulp-plumber": "^1.0.1",
-        "gulp-xml-editor": "^2.2.1",
+        "gulp-xml-transformer": "^1.2.0",
         "gulp-asar": "git://github.com/bwin/gulp-asar.git",
         "gulp-electron": "0.1.3",
         "gulp-electron-downloader": "0.1.6",

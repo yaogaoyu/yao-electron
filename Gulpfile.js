@@ -328,7 +328,7 @@ $gulp.task('build:make', ['bundle'], function () {
 
 /** 调整 OS X 程序内部文件以看起来更像原生内容 */
 $gulp.task('build:patch', ['build:make'], function () {
-    var $xml = require('gulp-xml-editor'),
+    var $xml = require('gulp-xml-transformer'),
         osx = package.release +
             '/' + package.electron.version +
             '/darwin-x64/' + package.name + '.app/Contents';
